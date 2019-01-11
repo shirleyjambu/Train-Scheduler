@@ -26,6 +26,7 @@ function addTrainData(trainSnapshot){
   var key = trainSnapshot.key;
 
   var $tr=$("<tr>");
+  //$tr.addClass("row");
   $tr.attr("id",key)
      .append(`<td>${name}</td>`)
      .append(`<td>${destination}</td>`)

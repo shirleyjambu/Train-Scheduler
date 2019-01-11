@@ -1,0 +1,24 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-jumbotron{
+  background-color:lightgrey;
+  border: 1px solid darkgrey;
+  color:black;
+}
+
+.my-card-header{
+  background-color: rgba(248, 4, 4, 0.644);
+  color: black;
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgba(248, 4, 4, 0.644);
+}
+
+a{
+  color: black;
+}
+

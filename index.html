@@ -17,15 +17,15 @@
 <body>
 <!-- Main Container-->  
 <div class="container">
-    <div class="jumbotron text-center bg-dark text-light">
+    <div class="jumbotron text-center my-jumbotron">
       <h1>Any Time Train Time</h1>
       <h4><span id="currentDay"></span></h4>
     </div>
     <!--Card for Train details-->
     <div class="card mb-4">
-      <div class="card-header">Current Train Schedule</div>
+      <div class="card-header my-card-header">Current Train Schedule</div>
       <div class="card-body">
-        <table class="table">
+        <table class="table table-striped">
           <thead>
           <tr>
             <th>Train Name</th>
@@ -34,7 +34,7 @@
             <th>Frequency(mins)</th>
             <th>Next Arrival</th>
             <th>Minutes Away</th>
-            <th></th> 
+            <th>Edit</th> 
           </tr>
         </thead>
         <tbody id="train-info">
@@ -45,7 +45,7 @@
     </div>
     <!-- Card for form-->
     <div class="card mb-4">
-        <div class="card-header">Add New Train</div>
+        <div class="card-header my-card-header">Add New Train</div>
         <div class="card-body">
           <form id="myForm">
             <div class="form-group">
