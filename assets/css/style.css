@@ -2,6 +2,18 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a:hover{
+  color: rgba(248, 4, 4, 0.644);
+}
+
+a{
+  color: black;
+}
+
+.my-container{
+  max-width: 50%;
+}
+
 .my-jumbotron{
   background-color:lightgrey;
   border: 1px solid darkgrey;
@@ -14,11 +26,7 @@ body{
   font-weight: bold;
 }
 
-a:hover{
-  color: rgba(248, 4, 4, 0.644);
+.my-btn{
+  color:rgba(248, 4, 4, 0.644);
+  font-weight: bold;
 }
-
-a{
-  color: black;
-}
-
