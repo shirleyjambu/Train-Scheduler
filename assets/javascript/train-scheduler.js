@@ -98,6 +98,12 @@ $(document).ready(function () {
   $("#submit-btn").show();
   $("#update-btn").hide();
 
+  // Logout
+  $("#logout").on("click",function(){
+    firebase.auth().signOut();
+    location.replace("index.html");
+  })
+
   // On submit 
   $("#submit-btn").on("click", function () {
 

@@ -30,3 +30,9 @@ a{
   color:rgba(248, 4, 4, 0.644);
   font-weight: bold;
 }
+
+.logoutBtn{
+  margin: 5px;
+  float: right;
+  background-color:rgba(248, 4, 4, 0.644);
+}
